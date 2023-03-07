@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+html,
+body{
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    height: 5%;
+    width: 100%;
+    background-color: #F5F5F5;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar .leftNav{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .rightNav{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar .rightNav a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+.navbar .rightNav a:visited{
+    text-decoration: none;
+    color: black;
+}
+.navbar .rightNav a:hover{
+    font-size: 20px;
+    color: black;
+}
+.heroImg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.video{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#myVideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+.heroImg .heroTextPos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.heroImg .heroTextPos .heroText{
+    color: lavender;
+    font-size: 66px;
+    font-family: Montseratt;
+}
+
+.about{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(39,39,39) ;
+    display: flex;
+} 
+.about .leftAbout{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    background-image: url(../images/agustin.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about .rightAbout{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about .rightAbout ul{
+    width: 500px;
+    padding: 30px;
+    color: lavender;
+    font-size: 26px;
+    font-family: Montseratt;
+}
+
+.projects{
+    width: 100%;
+    height: 100%;
+    background-color: 
+    lavender;
+}
+
+.projects .pContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.projects .pContainer .pOne{
+    width: 200px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projects .pContainer .pOne a{
+    font-size: 33px;
+    padding: 40px;
+}
+.projects .pContainer .pOne a:visited{
+    text-decoration: none;
+    color: black;
+}
+.projects .pContainer .pOne p{
+    font-size: 16px;
+    padding: 0px;
+    margin-left: 29px;
+}
+
+.projects .pContainer .pTwo{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projects .pContainer .pThree{
+    width: 400px;
+    height: 400px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(39,39,39) ;
+}
+
+form{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 2vh 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+form h3{
+    color #555;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+}
+
+form button{
+    padding: 15px;
+    background: #ff5361;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}

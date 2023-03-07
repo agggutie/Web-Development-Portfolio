@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agustin Gutierrez's Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Montserrat:wght@100&family=Roboto:ital,wght@0,700;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container" class="container">
+        <section id="navbar" class="navbar">
+                <div class="leftNav">
+                    Agustin Gutierrez
+                </div>
+                <div class="rightNav">
+                    <a href="#container">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+        </section>
+        <section class="heroImg">
+            <div class="video">
+            <video autoplay muted loop id="myVideo">
+            <source src="images/file.mp4" type="video/mp4"></source>
+         </div>
+         <div class="heroTextPos">
+            <p class="heroText">Web Design & Development </p>
+        </div>
+        </section>
+        <section id="about" class="about">
+            <div class="leftAbout"></div>
+            <div class="rightAbout">
+                <ul>Student at IUPUI pursuing my B.S in Full Stack Development. </ul>
+                <ul>Currently improving web design skills and working on projects in the React framework to improve my websites interactivity. </ul>
+                <ul>This semester I am undergoing projects in HTML, CSS, JS, SQL, and Python</ul>
+                <ul>I am avid anime-watcher, gamer, and animal-lover!</ul>
+                <ul>For any inquires please use the contact form below!</ul>
+            </div>
+        </section>
+        <section id="projects" class="projects">
+            <div class="pContainer">
+                <div class="pOne">
+                    <a href="https://in-info-web4.informatics.iupui.edu/~aggutie/315homeworkSix/index.html">Project One!</a>
+                    <p>Interactive product photo library.</p>
+                </div>
+                <div class="pOne">
+                    <a href="https://hw-two.web.app/">Project Two!</a>
+                    <p>Mock website based on the Crunchyroll website.</p>
+                </div>
+                <div class="pOne">
+                    <a href="https://newm-n423-final-34cdf.web.app/">Project Three!</a>
+                    <p>Food Safety checklist created in React.</p>
+                </div>
+         </div>
+        </section>
+        <!--this is the contact section and emails are being sent through formspree. Currently I cannot get it to send through, I am assuming that the POP and IMAP settings are not enabled to change in our outlook email system. -->
+        <section id="contact" class="contact">
+            <form action="https://formspree.io/f/maykeanv" method="POST">
+                <h3>Get in touch!</h3>
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Email id" required>
+                <input type="text" id="phone" placeholder="Phone #" required>
+                <textarea id="message" rows="4" placeholder="Hope to hear from you soon!"></textarea>
+                <button type="submit">send</button>
+            </form>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js"></script>
+</body>
+</html>
