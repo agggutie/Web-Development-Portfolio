@@ -156,6 +156,7 @@ p {
 .projects .pContainer .pOne a{
     font-size: 33px;
     padding: 40px;
+    text-decoration: none;
 }
 .projects .pContainer .pOne a:visited{
     text-decoration: none;
@@ -165,6 +166,7 @@ p {
     font-size: 16px;
     padding: 0px;
     margin-left: 29px;
+    text-decoration: none;
 }
 
 .projects .pContainer .pTwo{
