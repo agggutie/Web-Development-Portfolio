@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agustin Gutierrez's Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Montserrat:wght@100&family=Roboto:ital,wght@0,700;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="container" class="container">
@@ -19,59 +21,85 @@
                 <div class="rightNav">
                     <a href="#container">Home</a>
                     <a href="#projects">Projects</a>
-                    <a href="#resume">Resume</a>
                     <a href="#about">About</a>
                     <a href="#contact">Contact</a>
                 </div>
         </section>
-        <section class="heroImg">
+        <section  class="heroImg">
             <div class="video">
-            <video autoplay muted loop id="myVideo">
+            <!-- <video autoplay muted loop id="myVideo"> -->
             <source src="images/file.mp4" type="video/mp4"></source>
          </div>
          <div class="heroTextPos">
-            <p class="heroText">Web Design & Development </p>
+            <p data-aos="fade-in" class="heroText">Web Designer & Developer </p>
         </div>
         </section>
         <section id="projects" class="projects">
-            <div class="pContainer">
-                <div class="pOne">
+
+                <div data-aos="fade-up" class="project">
                     <a href="https://pocket-methods.vercel.app/">Pocket Methods</a>
                     <img src="images/pocket.png" alt="">
-                    <p>Instrument Learning Application, built in React with Node.Js and Javascript.</p>
+                        <p>Instrument Learning Application, built in React with Node.Js and Javascript.</p>
+                        <p>Tech Used: React.js, Firebase, MySQL, HTML, CSS. </p> 
+                        <p>Description: A Web Application built for a subscription service for school districts, band departments, and individuals. </p>
+                        <p>
+                            Features: User Authentication, Game-Like Learning System (JS), Database Queries.
+                        </p>
                 </div>
 
-                <div class="pOne">
+                <div data-aos="fade-up" class="project">
                     <a href="https://hw-two.web.app/">Crunchy Roll Recreation</a>
                     <img src="images/crNot.png" alt="">
                     <p>Mock website based on the Crunchyroll website, built in React.</p>
+                    <p>Front-End: React.js, HTML, SASS</p>
+                    <p>Description: A recreation of the Crunchyroll website built for learning React.</p>
                 </div>
         
-                <div class="pOne">
+                <div data-aos="fade-up" class="project">
                     <a href="https://agggutie.github.io/homework-two/">Bikepacking</a>
                     <img src="images/bikePacking.png" alt="">
                     <p>A recreation of the Bikepacking site, built with HTML & CSS.</p>
+                    <p>Front-End: HTML & SASS</p>
+                    <p>Description: Recreated the Bikepacking.com site using HTML and SASS to showcase front-end development skills and attention to detail in design. </p>
                 </div>
 
-                <div class="pOne">
+                <div data-aos="fade-up" class="project">
                     <a href="https://agggutie.github.io/portfolio_shop/">Lavender's Shoppe Mockup</a>
                     <img src="images/lavShoppe.png" alt="">
+                   
                     <p>A front-end mock up of a shopping site for a client.</p>
+                    <p>Technologies: HTML & SASS</p> 
+                    <p>Description: 
+                     Designed a mockup for a client's e-commerce site, displaying skills in front-end development and providing a visual representation of an online shopping experience. </p>
+                    
                 </div>
-         </div> 
-        </section>
-        <section id="resume" class="resume">
-            <iframe src="images/Resume_2024.pdf" style="width: 100%;height: 100%;border: none;"></iframe> 
+               
         </section>
         <section id="about" class="about">
-            <div class="leftAbout"></div>
-            <div class="rightAbout">
-                <ul>Student at IUPUI pursuing my Bachelors in Media Arts & Science with a Specialization in Web Design & Development. </ul>
-                <ul>Currently improving web design skills and working on projects in React and Firebase to create fully functional web applications. </ul>
-                <ul>This semester I am undergoing projects in MySQL & WordPress.</ul>
-                <ul>Fun Facts about me:</ul>
-                <ul>I  enjoy watching anime, reading manga, playing League of Legends, and have a lot of pets!</ul>
-                <ul>For any inquires please use the contact form below!</ul>
+            <div class="about-text">
+                <h2>About Me</h2> <br/>
+                <p> 
+                    Welcome to my portfolio! I'm Agustin Gutierrez, a seasoned web developer with technical skills in Full-Stack Development including but not limited to React, Firebase, PHP, and MySQL. With a wealth of experience in crafting robust and user-centric digital solutions, I bring a unique blend of technical expertise and creative problem-solving skills to every project I undertake.
+                </p> 
+
+                <p> 
+                    Throughout my career, I've had the opportunity to work on a diverse range of projects, from building scalable web applications to optimizing database performance and everything in between. My proficiency in React allows me to create highly interactive and responsive user interfaces, while my mastery of Firebase enables me to leverage real-time data management capabilities for seamless user experiences.
+                </p> 
+                <p> 
+                    My journey in web development has equipped me with a diverse skill set and a keen eye for detail. From conceptualization to deployment, I'm dedicated to collaborating closely with clients to understand their unique needs and translate their vision into polished realities. Whether it's crafting custom themes, implementing complex functionalities, or optimizing website performance, I approach each project with enthusiasm and a commitment to excellence.
+                </p> 
+                
+                <p>
+                    In addition to my technical prowess, I'm a firm believer in continuous learning and growth. I actively seek out opportunities to expand my knowledge and stay abreast of industry best practices, ensuring that my skill set remains sharp and adaptable in this ever-evolving field.
+                </p> 
+                
+                <p>
+                    Outside of coding, you can find me exploring new hiking trails, experimenting with new recipes in the kitchen, or immersing myself in a good book. I believe in maintaining a healthy work-life balance to fuel creativity and foster personal well-being.
+                </p> 
+                
+                <p>
+                    I am confident that my skills, experience, and dedication make me a valuable asset to any organization looking to elevate their digital presence and drive success in today's competitive landscape. Thank you for considering my candidacy, and I look forward to the opportunity to contribute to your team's success. Let's collaborate and create something remarkable together!
+                </p> 
             </div>
         </section>
         <!--this is the contact section and emails are being sent through formspree. Currently I cannot get it to send through, I am assuming that the POP and IMAP settings are not enabled to change in our outlook email system. -->
@@ -86,6 +114,10 @@
             </form>
         </section>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js"></script>
 </body>
 </html>
