@@ -122,6 +122,7 @@ p {
 
 .about-text h2{
     color: #be9b7b;
+    margin-bottom: 0px;
     font-size: 44px;
     font-family: "Bungee", sans-serif;
     font-weight: 400;
@@ -136,7 +137,7 @@ p {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-left: 2vw;
     margin-right: 2vw;
 }
