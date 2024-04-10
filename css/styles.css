@@ -63,7 +63,11 @@ p {
     height: 100vh;
     display: flex;
     margin-bottom: 0px;
-    background-color: #f8f8f7;
+    background-color: #ECE9E4;
+    opacity: 0.8;
+    background-image:  radial-gradient(#CAAE95 1.1500000000000001px, transparent 1.1500000000000001px), radial-gradient(#CAAE95 1.1500000000000001px, #ECE9E4 1.1500000000000001px);
+    background-size: 46px 46px;
+    background-pos
 }
 
 
@@ -102,11 +106,15 @@ p {
 .about{
     width: 100vw;
     height: 100vh;
-    background-color:  	#f8f8f7;
     display: flex;
     justify-content: center;
     align-items: center;
-} 
+    background-color: #ECE9E4;
+    opacity: 0.8;
+    background-image:  radial-gradient(#CAAE95 1.1500000000000001px, transparent 1.1500000000000001px), radial-gradient(#CAAE95 1.1500000000000001px, #ECE9E4 1.1500000000000001px);
+    background-size: 46px 46px;
+    background-position: 0 0,23px 23px;
+    } 
 
 .about-text{
     width: 70vw;
@@ -145,7 +153,7 @@ p {
 .projects{
     width: 100vw;
     height: 400vh;
-    background-color:#ece9e4;
+    background-color: #ECE9E4;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -160,10 +168,48 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     margin-bottom: 40px;
+}
+
+.projects .project .left{
+ width: 60vw;
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
 
 }
+
+.projects .project .right{
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects .project .right h2{
+    width: 40%;
+    font-size: 22px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+.projects .project .right p{
+    width: 40%;
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .projects .project img{
     width: 60vw;
     height: 60vh;
@@ -197,17 +243,6 @@ p {
     color: #be9b7b;
 }
 
-.projects .project p{
-    width: 40%;
-    font-size: 16px;
-    margin-bottom: 5px;
-    text-decoration: none;
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-
-}
-
 
 .contact{
     width: 100%;
@@ -215,7 +250,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:  #ece9e4;
+    background-color: #ECE9E4;
 }
 
 form{
@@ -254,3 +289,4 @@ form button{
     margin: 20px auto 0;
     border-radius: 30px;
 }
+
