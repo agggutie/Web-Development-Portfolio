@@ -188,15 +188,6 @@ p {
     flex-direction: row;
 }
 
-.projects .project .left1{
- width: 60vw;
- height: 100vh;
- display: flex;
- flex-direction: column;
- justify-content: center;
-
-}
-
 .projects .project .right1{
     width: 40vw;
     height: 100vh;
@@ -236,6 +227,7 @@ p {
  display: flex;
  flex-direction: column;
  justify-content: center;
+ align-items: flex-start;
 }
 
 .projects .project .right1{
